@@ -6,6 +6,9 @@ public class Cup {
     private double capacity;
     private double no_of_calories;
     public Cup(){}
+    public Cup(double capacity){
+        this.capacity=capacity;
+    }
     public Cup(double capacity,double no_of_calories){
         this.capacity=capacity;
         this.no_of_calories= no_of_calories;

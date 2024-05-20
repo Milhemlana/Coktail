@@ -39,4 +39,8 @@ public class Fruits extends Ingredients{
    public String getInfo(){
        return " , "+super.getInfo()+"The color is: "+this.color+" , "+" The volume is: "+this.volume+".";
    }
+   public void Claories(){
+       
+   }
+   
 }

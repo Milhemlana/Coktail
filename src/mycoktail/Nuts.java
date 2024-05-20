@@ -10,10 +10,21 @@ package mycoktail;
  * @author lanam
  */
 public class Nuts extends Ingredients {
+    double volume;
     public Nuts(){}
-    public Nuts(String name,double no_of_calories){
+    public Nuts(String name,double no_of_calories,double volume){
         super(name,no_of_calories);
+        this.volume=volume;
     }
+
+    public double getVolume() {
+        return volume;
+    }
+
+    public void setVolume(double volume) {
+        this.volume = volume;
+    }
+   
     @Override
     public String getInfo(){
         return super.getInfo();

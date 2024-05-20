@@ -1,39 +1,47 @@
 
 package mycoktail;
 public class Color {
-    private String r;
-    private String g;
-    private String b;
-    public Color(){}
-    public Color(String r,String b,String g){
-        this.r=r;
-        this.g=g;
-        this.b=b;
-    }
+   private double r;
+   private double g;
+   private double b;
+   public Color(){}
+   public Color(double r,double g,double b){
+       this.r=r;
+       this.g=g;
+       this.b=b;
+   }
 
-    public String getR() {
+    public double getR() {
         return r;
     }
 
-    public void setR(String r) {
+    public void setR(double r) {
         this.r = r;
     }
 
-    public String getG() {
+    public double getG() {
         return g;
     }
 
-    public void setG(String g) {
+    public void setG(double g) {
         this.g = g;
     }
 
-    public String getB() {
+    public double getB() {
         return b;
     }
 
-    public void setB(String b) {
+    public void setB(double b) {
         this.b = b;
     }
-  
-    
+   public void getTotalColor(double r,double g,double b){
+       double Red=0,Green=0,Blue=0;
+       Red+=this.r;
+       Green+=this.g;
+       Blue+=this.b;
+   }
 }
+
+
+
+

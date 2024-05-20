@@ -7,12 +7,36 @@ package mycoktail;
 public class Ingredients {
     private String name;
     private double no_of_calories ;
+    private double volume;
+    Color color;
+    
+
+    public double getVolume() {
+        return volume;
+    }
+
+    public void setVolume(double vol) {
+        this.volume = vol;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+    
+ 
+    
     
     public Ingredients(){}
     public Ingredients(String name,double no_of_calories){
         this.name=name;
         this.no_of_calories=no_of_calories;
     }
+
+    
 
     public String getName() {
         return name;
